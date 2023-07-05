@@ -50,7 +50,7 @@ def checker(combo):
         print(f"[BAD] {email}:{password}")
 
 
-combos = open('combos.txt').read().split()
+combos = open('/storage/emulated/0/StreamableChecker/combo.txt').read().split()
 
 
 def write_to_file(email, password, account_type):
